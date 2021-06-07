@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <div class = "regform"><h1>Registration Form</h1></div>
+    <form>
+        <div id="name">
+            <h2 class="name">Name</h2>
+            <input class="firstname" type="text" name="firstname" placeholder="Enter your first name"><br>
+            <input class="lastname" type="text" name="lastname" placeholder="Enter your last name"><br>
+        </div>
+
+        <h2 class="name">College</h2>
+        <input class="college" type="text" name="college" placeholder="Enter your Institute's name">
+        
+        <h2 class="name">Email</h2>
+        <input class="email" type="email" name="email" placeholder="Enter your email address">
+        
+        <h2 class="name">Phone number</h2>
+        <input class="phone" type="number" name="phone" placeholder="Enter your mobile number">\
+
+        <h2 class="subject">Choose Subject</h2>
+        <select class="option" name="subject">
+            <option>PHP</option>
+            <option disabled="disabled" selected="selected">Computer Science</option>
+            <option>Machine Learning</option>
+            <option>Flutter</option>
+        </select>
+
+        <h2 id="student">Are you beginner?</h2>
+        <input class="radio" type="radio">Yes
+        <input class="radio" type="radio">No
+
+        <button type="submit">Register</button>
+    </form>
+</body>
+</html>
